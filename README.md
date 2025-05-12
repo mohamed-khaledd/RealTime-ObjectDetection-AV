@@ -14,11 +14,11 @@ A real-time object detection system designed for autonomous vehicles, leveraging
 
 ```
 RealTime-ObjectDetection-AV/
-├── Deployment/                  # Dataset and related resources
+├── Deployment/                    # Deployment files 
 ├── Exported Model/                # Pre-trained and custom-trained models
-├── Presentation/               # Training and inference scripts              
-├── AV_Project.ipynb      # Project dependencies
-└── README.md              # Project documentation
+├── Presentation/                  # Presentation           
+├── AV_Project.ipynb               # Python notebook
+└── README.md                      # Project documentation
 ```
 
 ##  Installation
@@ -37,12 +37,6 @@ RealTime-ObjectDetection-AV/
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install dependencies**:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ##  Usage
 
 1. **Prepare the dataset**:
@@ -55,13 +49,7 @@ RealTime-ObjectDetection-AV/
    python scripts/train.py --config configs/train_config.yaml
    ```
 
-3. **Run real-time detection**:
-
-   ```bash
-   python scripts/detect.py --source 0  # 0 for webcam or provide video file path
-   ```
-
-4. **Monitor performance**:
+3. **Monitor performance**:
 
    Utilize integrated MLOps tools to track model metrics and system logs.
 
