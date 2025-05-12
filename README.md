@@ -3,27 +3,25 @@
 
 A real-time object detection system designed for autonomous vehicles, leveraging deep learning to identify pedestrians, vehicles, traffic signs, and obstacles under diverse conditions. The project encompasses model training, MLOps integration for monitoring, and real-world testing to ensure safety and efficiency in self-driving applications.
 
-## 🚀 Features
+##  Features
 
 - **Real-Time Detection**: Processes live video feeds to detect multiple object classes pertinent to autonomous driving.
 - **Deep Learning Integration**: Utilizes state-of-the-art models for accurate object recognition.
 - **MLOps Monitoring**: Incorporates tools for model performance tracking and system diagnostics.
 - **Comprehensive Testing**: Includes real-world scenario evaluations to validate system reliability.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 RealTime-ObjectDetection-AV/
-├── data/                  # Dataset and related resources
-├── models/                # Pre-trained and custom-trained models
-├── scripts/               # Training and inference scripts
-├── utils/                 # Utility functions and helpers
-├── tests/                 # Test cases and evaluation metrics
-├── requirements.txt       # Project dependencies
+├── Deployment/                  # Dataset and related resources
+├── Exported Model/                # Pre-trained and custom-trained models
+├── Presentation/               # Training and inference scripts              
+├── AV_Project.ipynb      # Project dependencies
 └── README.md              # Project documentation
 ```
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone the repository**:
 
@@ -45,7 +43,7 @@ RealTime-ObjectDetection-AV/
    pip install -r requirements.txt
    ```
 
-## 📈 Usage
+##  Usage
 
 1. **Prepare the dataset**:
 
@@ -67,7 +65,7 @@ RealTime-ObjectDetection-AV/
 
    Utilize integrated MLOps tools to track model metrics and system logs.
 
-## 🧪 Testing
+##  Testing
 
 Execute the test suite to ensure all components function as expected:
 
@@ -75,14 +73,14 @@ Execute the test suite to ensure all components function as expected:
 python -m unittest discover tests
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-## 📬 Contact
+##  Contact
 
 For questions or suggestions, feel free to open an issue or contact [Mohamed Khaled](https://github.com/mohamed-khaledd).
